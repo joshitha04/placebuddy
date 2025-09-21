@@ -1,16 +1,33 @@
-Ignore the .env file to keep sensitive credentials like API keys and database passwords private.
+# Ignore environment files
 .env
 *.env
 
-/venv/
-/.venv/
-/env/
+# Ignore Python virtual environments
+venv/
+.venv/
+env/
 *.venv
 
-pycache/
+# Ignore Python cache and compiled files
+__pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-IDE and editor configuration files
+# Ignore IDE/editor settings
 .vscode/
+.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore node modules if using frontend JS frameworks
+node_modules/
+
+# Ignore build/dist folders
+dist/
+build/
