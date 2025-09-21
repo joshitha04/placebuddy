@@ -1,0 +1,16 @@
+Ignore the .env file to keep sensitive credentials like API keys and database passwords private.
+.env
+*.env
+
+/venv/
+/.venv/
+/env/
+*.venv
+
+pycache/
+*.pyc
+*.pyo
+*.pyd
+
+IDE and editor configuration files
+.vscode/
